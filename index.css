@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10rem;
+  height: 10vh;
+  background-color: #1f2937;
+  position:fixed;
+}
+
+header h1 {
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-bar li {
+  color: white;
+  list-style: none;
+}
+
+.hero-page {
+  background-color: #1f2937;
+  height: 90vh;
+  margin-top: 10vh;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-section {
+  display: flex;              /* REQUIRED */
+  align-items: center;        /* vertical (Y-axis) centering */
+  justify-content: center;    /* horizontal (X-axis) centering – optional */  
+  flex-direction: column;
+  padding-left: 10rem;
+  padding-right: 3rem;
+  gap: 1rem;
+}
+
+.info-section h1 {
+  text-align: left;
+  align-self: flex-start;
+}
+
+.recipe-btn {
+  align-self: flex-start;
+  background-color: #3882F6;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-placeholder {
+  border: 5px solid gray;
+  background-color: white;
+  width: 30rem;
+  height:20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
