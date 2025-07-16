@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -81,5 +85,11 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#recipe-page {
+  scroll-margin-top: 10vh;
+  height: 100vh;
+
 }
 
